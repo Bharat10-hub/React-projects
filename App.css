@@ -1,0 +1,34 @@
+#calculator{
+  text-align: center;
+  margin: 15px;
+  border: 1px solid black;
+  height: 400px;
+  width: 220px;
+  border-radius: 8px;
+  
+}
+#button-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+.buttons{
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 8px;
+  
+}
+.display{
+  margin: 10px;
+  width: 80%;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+.buttons:hover{
+  opacity: 0.8;
+  background-color: lightgreen;
+}
